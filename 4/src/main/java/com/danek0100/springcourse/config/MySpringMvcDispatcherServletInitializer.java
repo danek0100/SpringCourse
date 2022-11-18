@@ -33,4 +33,6 @@ public class MySpringMvcDispatcherServletInitializer extends AbstractAnnotationC
         aContext.addFilter("hiddenHttpMethodFilter",
                 new HiddenHttpMethodFilter()).addMappingForUrlPatterns(null, true, "/*");
     }
+
+
 }
